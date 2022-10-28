@@ -1,5 +1,7 @@
 h1 {
     color: darkslateblue;
+    font-size: 40px;
+    grid-template-rows: 1fr 1fr;
 }
 
 body {
@@ -18,4 +20,10 @@ body {
     background-color: lightblue;
     text-align: center;
     font-size: 50px;
+}
+
+.image{
+    display: flex;
+    justify-content: right;
+    padding-right: 50px;
 }

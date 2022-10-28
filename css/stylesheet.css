@@ -1,6 +1,9 @@
 h1 {
     color: #334259;
-
+    font-size: 50px;
+    background-color: lightblue;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
 }
 h2 {
     grid-column: 1/2;

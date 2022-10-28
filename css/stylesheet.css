@@ -1,7 +1,6 @@
 h1 {
-    color: darkslateblue;
-    font-size: 40px;
-    grid-template-rows: 1fr 1fr;
+    color: #334259;
+
 }
 
 body {
@@ -13,17 +12,48 @@ body {
     background-color: lightblue;
     font-family: "Montserrat", sans-serif;
     text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 
 }
 
+.fp-grid{
+    column-gap: 5px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+  }
+.sp-grid{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-column: 4/4;
+    grid-row: 4/4;
+  }
 .Topword {
     background-color: lightblue;
     text-align: center;
     font-size: 50px;
+    padding: 2px;
+    margin-top: 10px;
 }
 
-.image{
+/* .image{
     display: flex;
     justify-content: right;
-    padding-right: 50px;
+    padding-right: 100px;
+    margin-bottom: 100px;
+} */
+.image1{
+    display: flex;
+    justify-content: center;
+  }
+footer{
+    text-align: center;
+    background-color: lightblue;
+}
+
+nav {
+    background-color: lightblue;
+    text-align: center;
 }

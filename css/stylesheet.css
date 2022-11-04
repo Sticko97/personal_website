@@ -83,3 +83,23 @@ nav ul {
     text-align: center;
 }
 
+@media (min-width: 600px){
+ul.courselist{
+    list-style-type: none;
+}
+}
+@media (min-width: 600px){
+p.courseinfo {
+    display: grid;
+    justify-content: center;
+    
+}
+}
+@media (min-width: 600px){
+p.fall{
+    width: 100%;
+    border-bottom: 1px solid;
+    padding-bottom: 25px;
+    
+}
+}

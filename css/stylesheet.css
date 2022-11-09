@@ -1,69 +1,61 @@
 h1 {
-    color: #334259;
-    font-size: 50px;
-    background-color: lightblue;
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
+  color: #334259;
+  font-size: 50px;
+  background-color: lightblue;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 h2 {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    color: #334259;
-    font-size: 50px;
-    background-color: lightblue;
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  color: #334259;
+  font-size: 50px;
+  background-color: lightblue;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 h2 {
-    grid-column: 1/2;
-    grid-row: 1/2;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 
 body {
-<<<<<<< HEAD
-
-    background-color: wheat;
+  background-color: #edddd0;
 }
 
-=======
-    background-color: #EDDDD0;
+main {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 1fr;
+  /* column-gap: 50px; */
 }
-
-main{
-    display: grid;
-    grid-template-rows: 1fr ;
-    grid-template-columns: 2fr 1fr;
-    /* column-gap: 50px; */
-}
-.design{
-    background-color: lightblue;
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-    /* display:flex;
+.design {
+  background-color: lightblue;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  /* display:flex;
     flex-wrap: wrap; */
-    /* flex-direction: column; */
-
+  /* flex-direction: column; */
 }
-.fp-grid{
-    /* column-gap: 5px; */
-    /* display: grid; */
-    grid-column: 1/1;
-    grid-template-rows: 2/1;
-  }
-.sp-grid{
-    /* display: grid; */
-    /* grid-template-columns: 1fr 1fr; */
-    grid-column: 1/1;
+.fp-grid {
+  /* column-gap: 5px; */
+  /* display: grid; */
+  grid-column: 1/1;
+  grid-template-rows: 2/1;
+}
+.sp-grid {
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+  grid-column: 1/1;
 
-
-    /* grid-template-rows: 1/1; */
-  }
+  /* grid-template-rows: 1/1; */
+}
 .Topword {
-    background-color: lightblue;
-    text-align: center;
-    font-size: 50px;
-    padding: 2px;
-    margin-top: 10px;
+  background-color: lightblue;
+  text-align: center;
+  font-size: 50px;
+  padding: 2px;
+  margin-top: 10px;
 }
 
 /* .image{
@@ -72,48 +64,44 @@ main{
     padding-right: 100px;
     margin-bottom: 100px;
 } */
-.image1{
-    /* display: grid; */
-    grid-column: 2/3;
-    grid-row: 2/2
-  }
+.image1 {
+  /* display: grid; */
+  grid-column: 2/3;
+  grid-row: 2/2;
+}
 
-footer{
-    text-align: center;
-    background-color: lightblue;
-
+footer {
+  text-align: center;
+  background-color: lightblue;
 }
 
 nav {
-    background-color: lightblue;
-    text-align: center;
+  background-color: lightblue;
+  text-align: center;
 }
 
 nav ul {
-    display: inline-flex;
-    list-style-type: none;
-    justify-content: center;
-    text-align: center;
+  display: inline-flex;
+  list-style-type: none;
+  justify-content: center;
+  text-align: center;
 }
 
-@media (min-width: 600px){
-ul.courselist{
+@media (min-width: 600px) {
+  ul.courselist {
     list-style-type: none;
+  }
 }
-}
-@media (min-width: 600px){
-p.courseinfo {
+@media (min-width: 600px) {
+  p.courseinfo {
     display: grid;
     justify-content: center;
-    
+  }
 }
-}
-@media (min-width: 600px){
-p.fall{
+@media (min-width: 600px) {
+  p.fall {
     width: 100%;
     border-bottom: 1px solid;
     padding-bottom: 25px;
-    
+  }
 }
-}
->>>>>>> lab6
